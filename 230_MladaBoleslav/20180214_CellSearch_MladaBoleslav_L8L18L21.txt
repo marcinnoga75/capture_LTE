@@ -1,0 +1,557 @@
+RTL-SDR E4000
+Mladá Boleslav
+marcinnoga75 | SQ5RIQ | PRAWIE PORTAL ...
+http://marcinnoga75.blogspot.com/2018/02/lte-po-czesku-2018.html
+https://1.bp.blogspot.com/-sjd0WujM2U4/WoS1R1RDOMI/AAAAAAAAP_A/xUPrvvpDEe0hRtJn6PJvCkHJls-Rg6LygCLcBGAs/s1600/20180214_MB-CZ_CellSearch_L800-L1800-L2100.png
+
+
+-------------------------------------------
+https://github.com/JiaoXianjun/rtl-sdr-LTE/
+-------------------------------------------
+
+
+LTE CellSearch (release) beginning. 1.0 to 1.1.0: OpenCL/TDD/HACKRF/bladeRF/ext-LNB added by Jiao Xianjun(putaoshu@gmail.com)
+  PPM: 0
+  correction: 1
+RTLSDR device FOUND!
+Use  HW  begin with 796MHz actual 796MHz 1.92e+06MHz
+    Search frequency: 796 to 796 MHz
+with freq correction: 0 kHz
+    Search PSS at fo: -140 to 135 kHz
+
+Examining center frequency 796 MHz ... try 0
+Write file header fc_requested 796MHz fc_programmed 796MHz fs_requested 1.92MHz fs_programmed 1.92MHz
+
+input level: avg abs(real) 0.0940003 avg abs(imag) 0.0868079
+Hit        PAR [17.523 16.9081]dB
+PSS XCORR  cost 67.2046s
+Hit  num peaks 7
+try peak 0 tdd_flag 0
+  Detected a FDD cell! At freqeuncy 796MHz, try 0
+    cell ID: 223
+     PSS ID: 1
+    RX power level: -13.3269 dB
+    residual frequency offset: 49847.7 Hz
+                     k_factor: 0.999937
+try peak 0 tdd_flag 1
+  Detected a TDD cell! At freqeuncy 796MHz, try 0
+    cell ID: 442
+     PSS ID: 1
+    RX power level: -13.3269 dB
+    residual frequency offset: 47698.6 Hz
+                     k_factor: 0.999937
+try peak 1 tdd_flag 0
+  Detected a FDD cell! At freqeuncy 796MHz, try 0
+    cell ID: 224
+     PSS ID: 2
+    RX power level: -17.9036 dB
+    residual frequency offset: 49838.7 Hz
+                     k_factor: 0.999937
+try peak 1 tdd_flag 1
+  Detected a TDD cell! At freqeuncy 796MHz, try 0
+    cell ID: 497
+     PSS ID: 2
+    RX power level: -17.9036 dB
+    residual frequency offset: 52279.9 Hz
+                     k_factor: 0.999937
+try peak 2 tdd_flag 0
+try peak 2 tdd_flag 1
+  Detected a TDD cell! At freqeuncy 796MHz, try 0
+    cell ID: 450
+     PSS ID: 0
+    RX power level: -20.039 dB
+    residual frequency offset: 51127 Hz
+                     k_factor: 0.999937
+try peak 3 tdd_flag 0
+  Detected a FDD cell! At freqeuncy 796MHz, try 0
+    cell ID: 243
+     PSS ID: 0
+    RX power level: -21.4275 dB
+    residual frequency offset: 49782.8 Hz
+                     k_factor: 0.999937
+try peak 3 tdd_flag 1
+try peak 4 tdd_flag 0
+  Detected a FDD cell! At freqeuncy 796MHz, try 0
+    cell ID: 391
+     PSS ID: 1
+    RX power level: -22.5828 dB
+    residual frequency offset: 49834 Hz
+                     k_factor: 0.999937
+try peak 4 tdd_flag 1
+try peak 5 tdd_flag 0
+  Detected a FDD cell! At freqeuncy 796MHz, try 0
+    cell ID: 223
+     PSS ID: 1
+    RX power level: -13.9161 dB
+    residual frequency offset: 74252.6 Hz
+                     k_factor: 0.999937
+try peak 5 tdd_flag 1
+  Detected a TDD cell! At freqeuncy 796MHz, try 0
+    cell ID: 496
+     PSS ID: 1
+    RX power level: -13.9161 dB
+    residual frequency offset: 80597.1 Hz
+                     k_factor: 0.999937
+try peak 6 tdd_flag 0
+  Detected a FDD cell! At freqeuncy 796MHz, try 0
+    cell ID: 275
+     PSS ID: 2
+    RX power level: -18.984 dB
+    residual frequency offset: 78980.8 Hz
+                     k_factor: 0.999937
+try peak 6 tdd_flag 1
+  Detected a TDD cell! At freqeuncy 796MHz, try 0
+    cell ID: 71
+     PSS ID: 2
+    RX power level: -18.984 dB
+    residual frequency offset: 79120.7 Hz
+                     k_factor: 0.999937
+Detected the following cells:
+DPX:TDD/FDD; A: #antenna ports C: CP type ; P: PHICH duration ; PR: PHICH resource type
+DPX CID A      fc   freq-offset RXPWR C nRB P  PR CrystalCorrectionFactor
+FDD 223 2    796M         49.8k -13.3 N  50 N one 1.0000626267189116625
+TDD 442255    796M         47.7k -13.3 N 255 U UNK 1.0000599264004739197
+FDD 224 2    796M         49.8k -17.9 N  50 N one 1.0000626154140004331
+TDD 497255    796M         52.3k -17.9 N 255 U UNK 1.0000656825293410268
+TDD 450255    796M         51.1k   -20 N 255 U UNK 1.0000642339966834271
+FDD 243 2    796M         49.8k -21.4 N  50 N one 1.0000625451246805131
+FDD 391 2    796M         49.8k -22.6 N  50 N one 1.0000626094003182143
+TDD 496255    796M         80.6k -13.9 E 255 U UNK 1.000101262870765062
+FDD 275255    796M           79k   -19 E 255 U UNK 1.0000992320149599824
+TDD  71255    796M         79.1k   -19 N 255 U UNK 1.0000994077354279366
+LTE CellSearch (release) beginning. 1.0 to 1.1.0: OpenCL/TDD/HACKRF/bladeRF/ext-LNB added by Jiao Xianjun(putaoshu@gmail.com)
+  PPM: 0
+  correction: 1
+RTLSDR device FOUND!
+Use  HW  begin with 806MHz actual 806MHz 1.92e+06MHz
+    Search frequency: 806 to 806 MHz
+with freq correction: 0 kHz
+    Search PSS at fo: -140 to 135 kHz
+
+Examining center frequency 806 MHz ... try 0
+Write file header fc_requested 806MHz fc_programmed 806MHz fs_requested 1.92MHz fs_programmed 1.92MHz
+
+input level: avg abs(real) 0.0967238 avg abs(imag) 0.0901567
+Hit        PAR [14.5827 15.926]dB
+PSS XCORR  cost 66.8337s
+Hit  num peaks 5
+try peak 0 tdd_flag 0
+  Detected a FDD cell! At freqeuncy 806MHz, try 0
+    cell ID: 80
+     PSS ID: 2
+    RX power level: -15.7981 dB
+    residual frequency offset: 50222 Hz
+                     k_factor: 0.999938
+try peak 0 tdd_flag 1
+try peak 1 tdd_flag 0
+  Detected a FDD cell! At freqeuncy 806MHz, try 0
+    cell ID: 490
+     PSS ID: 1
+    RX power level: -17.3528 dB
+    residual frequency offset: 50213.6 Hz
+                     k_factor: 0.999938
+try peak 1 tdd_flag 1
+  Detected a TDD cell! At freqeuncy 806MHz, try 0
+    cell ID: 88
+     PSS ID: 1
+    RX power level: -17.3528 dB
+    residual frequency offset: 49614.1 Hz
+                     k_factor: 0.999938
+try peak 2 tdd_flag 0
+  Detected a FDD cell! At freqeuncy 806MHz, try 0
+    cell ID: 193
+     PSS ID: 1
+    RX power level: -18.6443 dB
+    residual frequency offset: 50262 Hz
+                     k_factor: 0.999938
+try peak 2 tdd_flag 1
+try peak 3 tdd_flag 0
+  Detected a FDD cell! At freqeuncy 806MHz, try 0
+    cell ID: 196
+     PSS ID: 1
+    RX power level: -20.5652 dB
+    residual frequency offset: 50162.4 Hz
+                     k_factor: 0.999938
+try peak 3 tdd_flag 1
+try peak 4 tdd_flag 0
+  Detected a FDD cell! At freqeuncy 806MHz, try 0
+    cell ID: 8
+     PSS ID: 2
+    RX power level: -20.7199 dB
+    residual frequency offset: 50211.7 Hz
+                     k_factor: 0.999938
+try peak 4 tdd_flag 1
+  Detected a TDD cell! At freqeuncy 806MHz, try 0
+    cell ID: 449
+     PSS ID: 2
+    RX power level: -20.7199 dB
+    residual frequency offset: 52090.2 Hz
+                     k_factor: 0.999938
+Detected the following cells:
+DPX:TDD/FDD; A: #antenna ports C: CP type ; P: PHICH duration ; PR: PHICH resource type
+DPX CID A      fc   freq-offset RXPWR C nRB P  PR CrystalCorrectionFactor
+FDD  80 2    806M         50.2k -15.8 N  50 N one 1.000062314045734535
+FDD 490 2    806M         50.2k -17.4 N  50 N one 1.0000623036669564758
+TDD  88255    806M         49.6k -17.4 E 255 U UNK 1.0000615596860729095
+FDD 193 2    806M         50.3k -18.6 N  50 N one 1.0000623637309093983
+FDD 196 2    806M         50.2k -20.6 N  50 N one 1.0000622400516976374
+FDD   8 2    806M         50.2k -20.7 N  50 N one 1.0000623012579388238
+TDD 449255    806M         52.1k -20.7 N 255 U UNK 1.0000646322366120167
+LTE CellSearch (release) beginning. 1.0 to 1.1.0: OpenCL/TDD/HACKRF/bladeRF/ext-LNB added by Jiao Xianjun(putaoshu@gmail.com)
+  PPM: 0
+  correction: 1
+RTLSDR device FOUND!
+Use  HW  begin with 816MHz actual 816MHz 1.92e+06MHz
+    Search frequency: 816 to 816 MHz
+with freq correction: 0 kHz
+    Search PSS at fo: -140 to 135 kHz
+
+Examining center frequency 816 MHz ... try 0
+Write file header fc_requested 816MHz fc_programmed 816MHz fs_requested 1.92MHz fs_programmed 1.92MHz
+
+input level: avg abs(real) 0.116265 avg abs(imag) 0.108612
+Hit        PAR [18.9024 18.0253]dB
+PSS XCORR  cost 65.8091s
+Hit  num peaks 4
+try peak 0 tdd_flag 0
+  Detected a FDD cell! At freqeuncy 816MHz, try 0
+    cell ID: 25
+     PSS ID: 1
+    RX power level: -11.0135 dB
+    residual frequency offset: 50958.6 Hz
+                     k_factor: 0.999939
+try peak 0 tdd_flag 1
+  Detected a TDD cell! At freqeuncy 816MHz, try 0
+    cell ID: 244
+     PSS ID: 1
+    RX power level: -11.0135 dB
+    residual frequency offset: 48658.2 Hz
+                     k_factor: 0.999939
+try peak 1 tdd_flag 0
+  Detected a FDD cell! At freqeuncy 816MHz, try 0
+    cell ID: 17
+     PSS ID: 2
+    RX power level: -18.5949 dB
+    residual frequency offset: 50962.2 Hz
+                     k_factor: 0.999939
+try peak 1 tdd_flag 1
+  Detected a TDD cell! At freqeuncy 816MHz, try 0
+    cell ID: 41
+     PSS ID: 2
+    RX power level: -18.5949 dB
+    residual frequency offset: 53868.9 Hz
+                     k_factor: 0.999939
+try peak 2 tdd_flag 0
+try peak 2 tdd_flag 1
+  Detected a TDD cell! At freqeuncy 816MHz, try 0
+    cell ID: 67
+     PSS ID: 1
+    RX power level: -11.7995 dB
+    residual frequency offset: 20265.5 Hz
+                     k_factor: 0.999939
+try peak 3 tdd_flag 0
+  Detected a FDD cell! At freqeuncy 816MHz, try 0
+    cell ID: 125
+     PSS ID: 2
+    RX power level: -19.334 dB
+    residual frequency offset: 21111.3 Hz
+                     k_factor: 0.999939
+try peak 3 tdd_flag 1
+  Detected a TDD cell! At freqeuncy 816MHz, try 0
+    cell ID: 89
+     PSS ID: 2
+    RX power level: -19.334 dB
+    residual frequency offset: 19606.8 Hz
+                     k_factor: 0.999939
+Detected the following cells:
+DPX:TDD/FDD; A: #antenna ports C: CP type ; P: PHICH duration ; PR: PHICH resource type
+DPX CID A      fc   freq-offset RXPWR C nRB P  PR CrystalCorrectionFactor
+FDD  25 2    816M           51k   -11 N  50 N one 1.0000624531461999034
+TDD 244255    816M         48.7k   -11 N 255 U UNK 1.0000596337091158805
+FDD  17 2    816M           51k -18.6 N  50 N one 1.0000624575481464884
+TDD  41255    816M         53.9k -18.6 N 255 U UNK 1.0000660201908608826
+TDD  67255    816M         20.3k -11.8 N 255 U UNK 1.0000248357689929257
+FDD 125255    816M         21.1k -19.3 E 255 U UNK 1.0000258724101611651
+TDD  89255    816M         19.6k -19.3 E 255 U UNK 1.0000240285253358952
+LTE CellSearch (release) beginning. 1.0 to 1.1.0: OpenCL/TDD/HACKRF/bladeRF/ext-LNB added by Jiao Xianjun(putaoshu@gmail.com)
+  PPM: 0
+  correction: 1
+RTLSDR device FOUND!
+Use  HW  begin with 1843MHz actual 1843MHz 1.92e+06MHz
+    Search frequency: 1843 to 1843 MHz
+with freq correction: 0 kHz
+    Search PSS at fo: -140 to 135 kHz
+
+Examining center frequency 1843 MHz ... try 0
+Write file header fc_requested 1843MHz fc_programmed 1843MHz fs_requested 1.92MHz fs_programmed 1.92MHz
+
+input level: avg abs(real) 0.00806571 avg abs(imag) 0.00677163
+Hit        PAR [11.2125 10.489]dB
+PSS XCORR  cost 66.1959s
+Hit  num peaks 9
+try peak 0 tdd_flag 0
+  Detected a FDD cell! At freqeuncy 1843MHz, try 0
+    cell ID: 216
+     PSS ID: 0
+    RX power level: -42.0146 dB
+    residual frequency offset: 15319.4 Hz
+                     k_factor: 0.999937
+try peak 0 tdd_flag 1
+  Detected a TDD cell! At freqeuncy 1843MHz, try 0
+    cell ID: 315
+     PSS ID: 0
+    RX power level: -42.0146 dB
+    residual frequency offset: 16368.8 Hz
+                     k_factor: 0.999937
+try peak 1 tdd_flag 0
+  Detected a FDD cell! At freqeuncy 1843MHz, try 0
+    cell ID: 7
+     PSS ID: 1
+    RX power level: -45.9852 dB
+    residual frequency offset: 15317.5 Hz
+                     k_factor: 0.999937
+try peak 1 tdd_flag 1
+  Detected a TDD cell! At freqeuncy 1843MHz, try 0
+    cell ID: 130
+     PSS ID: 1
+    RX power level: -45.9852 dB
+    residual frequency offset: 17329.8 Hz
+                     k_factor: 0.999937
+try peak 2 tdd_flag 0
+  Detected a FDD cell! At freqeuncy 1843MHz, try 0
+    cell ID: 222
+     PSS ID: 0
+    RX power level: -46.0599 dB
+    residual frequency offset: 15307.8 Hz
+                     k_factor: 0.999937
+try peak 2 tdd_flag 1
+  Detected a TDD cell! At freqeuncy 1843MHz, try 0
+    cell ID: 354
+     PSS ID: 0
+    RX power level: -46.0599 dB
+    residual frequency offset: 15646.3 Hz
+                     k_factor: 0.999937
+try peak 3 tdd_flag 0
+  Detected a FDD cell! At freqeuncy 1843MHz, try 0
+    cell ID: 461
+     PSS ID: 2
+    RX power level: -47.8553 dB
+    residual frequency offset: 17648 Hz
+                     k_factor: 0.999937
+try peak 3 tdd_flag 1
+  Detected a TDD cell! At freqeuncy 1843MHz, try 0
+    cell ID: 182
+     PSS ID: 2
+    RX power level: -47.8553 dB
+    residual frequency offset: 16079.8 Hz
+                     k_factor: 0.999937
+try peak 4 tdd_flag 0
+  Detected a FDD cell! At freqeuncy 1843MHz, try 0
+    cell ID: 6
+     PSS ID: 0
+    RX power level: -48.8576 dB
+    residual frequency offset: 15319.3 Hz
+                     k_factor: 0.999937
+try peak 4 tdd_flag 1
+try peak 5 tdd_flag 0
+try peak 5 tdd_flag 1
+  Detected a TDD cell! At freqeuncy 1843MHz, try 0
+    cell ID: 258
+     PSS ID: 0
+    RX power level: -42.6166 dB
+    residual frequency offset: 91874.7 Hz
+                     k_factor: 0.999937
+try peak 6 tdd_flag 0
+  Detected a FDD cell! At freqeuncy 1843MHz, try 0
+    cell ID: 60
+     PSS ID: 0
+    RX power level: -46.6564 dB
+    residual frequency offset: 89790.6 Hz
+                     k_factor: 0.999937
+try peak 6 tdd_flag 1
+  Detected a TDD cell! At freqeuncy 1843MHz, try 0
+    cell ID: 462
+     PSS ID: 0
+    RX power level: -46.6564 dB
+    residual frequency offset: 91696.7 Hz
+                     k_factor: 0.999937
+try peak 7 tdd_flag 0
+  Detected a FDD cell! At freqeuncy 1843MHz, try 0
+    cell ID: 324
+     PSS ID: 0
+    RX power level: -48.9562 dB
+    residual frequency offset: 86429.9 Hz
+                     k_factor: 0.999937
+try peak 7 tdd_flag 1
+  Detected a TDD cell! At freqeuncy 1843MHz, try 0
+    cell ID: 36
+     PSS ID: 0
+    RX power level: -48.9562 dB
+    residual frequency offset: 93125.4 Hz
+                     k_factor: 0.999937
+try peak 8 tdd_flag 0
+try peak 8 tdd_flag 1
+  Detected a TDD cell! At freqeuncy 1843MHz, try 0
+    cell ID: 1
+     PSS ID: 1
+    RX power level: -48.9611 dB
+    residual frequency offset: 90925.1 Hz
+                     k_factor: 0.999937
+Detected the following cells:
+DPX:TDD/FDD; A: #antenna ports C: CP type ; P: PHICH duration ; PR: PHICH resource type
+DPX CID A      fc   freq-offset RXPWR C nRB P  PR CrystalCorrectionFactor
+FDD 216 2   1843M         15.3k   -42 N 100 N one 1.0000083122945293557
+TDD 315255   1843M         16.4k   -42 E 255 U UNK 1.0000088816764454158
+FDD   7 2   1843M         15.3k   -46 N 100 N one 1.0000083112486692904
+TDD 130255   1843M         17.3k   -46 E 255 U UNK 1.0000094031158492935
+FDD 222 2   1843M         15.3k -46.1 N 100 N one 1.0000083060037785465
+TDD 354255   1843M         15.6k -46.1 N 255 U UNK 1.0000084896723886452
+FDD 461255   1843M         17.6k -47.9 E 255 U UNK 1.0000095757759490667
+TDD 182255   1843M         16.1k -47.9 E 255 U UNK 1.0000087248479438973
+FDD   6 2   1843M         15.3k -48.9 N 100 N one 1.0000083122468736985
+TDD 258255   1843M         91.9k -42.6 E 255 U UNK 1.000049853098231134
+FDD  60255   1843M         89.8k -46.7 N 255 U UNK 1.0000487221912273128
+TDD 462255   1843M         91.7k -46.7 E 255 U UNK 1.0000497565194343963
+FDD 324255   1843M         86.4k   -49 E 255 U UNK 1.0000468985059389748
+TDD  36255   1843M         93.1k   -49 N 255 U UNK 1.0000505317945584949
+TDD   1255   1843M         90.9k   -49 E 255 U UNK 1.0000493378280466139
+LTE CellSearch (release) beginning. 1.0 to 1.1.0: OpenCL/TDD/HACKRF/bladeRF/ext-LNB added by Jiao Xianjun(putaoshu@gmail.com)
+  PPM: 0
+  correction: 1
+RTLSDR device FOUND!
+Use  HW  begin with 2137.6MHz actual 2137.6MHz 1.92e+06MHz
+    Search frequency: 2137.6 to 2137.6 MHz
+with freq correction: 0 kHz
+    Search PSS at fo: -140 to 135 kHz
+
+Examining center frequency 2137.6 MHz ... try 0
+Write file header fc_requested 2137.6MHz fc_programmed 2137.6MHz fs_requested 1.92MHz fs_programmed 1.92MHz
+
+input level: avg abs(real) 0.00760703 avg abs(imag) 0.00604473
+Hit        PAR [13.4801 12.4371]dB
+PSS XCORR  cost 66.7974s
+Hit  num peaks 3
+try peak 0 tdd_flag 0
+  Detected a FDD cell! At freqeuncy 2137.6MHz, try 0
+    cell ID: 233
+     PSS ID: 2
+    RX power level: -41.7632 dB
+    residual frequency offset: 33672.6 Hz
+                     k_factor: 0.999936
+try peak 0 tdd_flag 1
+  Detected a TDD cell! At freqeuncy 2137.6MHz, try 0
+    cell ID: 8
+     PSS ID: 2
+    RX power level: -41.7632 dB
+    residual frequency offset: 34574.9 Hz
+                     k_factor: 0.999936
+try peak 1 tdd_flag 0
+  Detected a FDD cell! At freqeuncy 2137.6MHz, try 0
+    cell ID: 232
+     PSS ID: 1
+    RX power level: -47.4945 dB
+    residual frequency offset: 33660.9 Hz
+                     k_factor: 0.999936
+try peak 1 tdd_flag 1
+  Detected a TDD cell! At freqeuncy 2137.6MHz, try 0
+    cell ID: 355
+     PSS ID: 1
+    RX power level: -47.4945 dB
+    residual frequency offset: 35187.3 Hz
+                     k_factor: 0.999936
+try peak 2 tdd_flag 0
+  Detected a FDD cell! At freqeuncy 2137.6MHz, try 0
+    cell ID: 426
+     PSS ID: 0
+    RX power level: -47.9331 dB
+    residual frequency offset: 37568.2 Hz
+                     k_factor: 0.999936
+try peak 2 tdd_flag 1
+  Detected a TDD cell! At freqeuncy 2137.6MHz, try 0
+    cell ID: 453
+     PSS ID: 0
+    RX power level: -47.9331 dB
+    residual frequency offset: 31867.2 Hz
+                     k_factor: 0.999936
+Detected the following cells:
+DPX:TDD/FDD; A: #antenna ports C: CP type ; P: PHICH duration ; PR: PHICH resource type
+DPX CID A      fc   freq-offset RXPWR C nRB P  PR CrystalCorrectionFactor
+FDD 233 2 2137.6M         33.7k -41.8 N  75 N one 1.0000157527955664261
+TDD   8255 2137.6M         34.6k -41.8 E 255 U UNK 1.0000161748838818365
+FDD 232 2 2137.6M         33.7k -47.5 N  75 N one 1.0000157473101707328
+TDD 355255 2137.6M         35.2k -47.5 E 255 U UNK 1.0000164613880302422
+FDD 426255 2137.6M         37.6k -47.9 E 255 U UNK 1.0000175752625195535
+TDD 453255 2137.6M         31.9k -47.9 E 255 U UNK 1.0000149081364326786
+LTE CellSearch (release) beginning. 1.0 to 1.1.0: OpenCL/TDD/HACKRF/bladeRF/ext-LNB added by Jiao Xianjun(putaoshu@gmail.com)
+  PPM: 0
+  correction: 1
+RTLSDR device FOUND!
+Use  HW  begin with 2155MHz actual 2155MHz 1.92e+06MHz
+    Search frequency: 2155 to 2155 MHz
+with freq correction: 0 kHz
+    Search PSS at fo: -140 to 135 kHz
+
+Examining center frequency 2155 MHz ... try 0
+Write file header fc_requested 2155MHz fc_programmed 2155MHz fs_requested 1.92MHz fs_programmed 1.92MHz
+
+input level: avg abs(real) 0.00693245 avg abs(imag) 0.00538796
+Hit        PAR [12.7198 11.5395]dB
+PSS XCORR  cost 67.2134s
+Hit  num peaks 6
+try peak 0 tdd_flag 0
+  Detected a FDD cell! At freqeuncy 2155MHz, try 0
+    cell ID: 97
+     PSS ID: 1
+    RX power level: -42.8057 dB
+    residual frequency offset: 34856.7 Hz
+                     k_factor: 0.999937
+try peak 0 tdd_flag 1
+  Detected a TDD cell! At freqeuncy 2155MHz, try 0
+    cell ID: 154
+     PSS ID: 1
+    RX power level: -42.8057 dB
+    residual frequency offset: 37764.9 Hz
+                     k_factor: 0.999937
+try peak 1 tdd_flag 0
+  Detected a FDD cell! At freqeuncy 2155MHz, try 0
+    cell ID: 28
+     PSS ID: 1
+    RX power level: -47.8534 dB
+    residual frequency offset: 34910.3 Hz
+                     k_factor: 0.999937
+try peak 1 tdd_flag 1
+try peak 2 tdd_flag 0
+  Detected a FDD cell! At freqeuncy 2155MHz, try 0
+    cell ID: 10
+     PSS ID: 1
+    RX power level: -49.2508 dB
+    residual frequency offset: 34875.1 Hz
+                     k_factor: 0.999937
+try peak 2 tdd_flag 1
+try peak 3 tdd_flag 0
+try peak 3 tdd_flag 1
+  Detected a TDD cell! At freqeuncy 2155MHz, try 0
+    cell ID: 214
+     PSS ID: 1
+    RX power level: -44.1254 dB
+    residual frequency offset: 65099.6 Hz
+                     k_factor: 0.999937
+try peak 4 tdd_flag 0
+  Detected a FDD cell! At freqeuncy 2155MHz, try 0
+    cell ID: 193
+     PSS ID: 1
+    RX power level: -48.8515 dB
+    residual frequency offset: 71033 Hz
+                     k_factor: 0.999937
+try peak 4 tdd_flag 1
+try peak 5 tdd_flag 0
+try peak 5 tdd_flag 1
+Detected the following cells:
+DPX:TDD/FDD; A: #antenna ports C: CP type ; P: PHICH duration ; PR: PHICH resource type
+DPX CID A      fc   freq-offset RXPWR C nRB P  PR CrystalCorrectionFactor
+FDD  97 2   2155M         34.9k -42.8 N  50 N one 1.0000161750782954329
+TDD 154255   2155M         37.8k -42.8 E 255 U UNK 1.000017524636764632
+FDD  28 2   2155M         34.9k -47.9 N  50 N one 1.0000161999532191093
+FDD  10 2   2155M         34.9k -49.3 N  50 N one 1.000016183625984878
+TDD 214255   2155M         65.1k -44.1 N 255 U UNK 1.0000302095478164066
+FDD 193255   2155M           71k -48.9 E 255 U UNK 1.0000329630223905308
